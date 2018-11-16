@@ -1,17 +1,17 @@
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
- *
- * @format
  * @flow
  */
 
-import React, {Component} from 'react';
-import { StyleSheet, View} from 'react-native';
-import TestRunnerComponent from './components/TestRunnerComponent';
+import React, { Component } from 'react';
+import {
+  StyleSheet,
+  View
+} from 'react-native';
+import TestRunnerComponent from './components/TestRunnerComponent'
 
-
-export default class App extends Component {
+export default class JasmineTests extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -39,3 +39,4 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
+
